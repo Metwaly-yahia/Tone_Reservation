@@ -7,8 +7,9 @@ Each method will be explained in detail with the performance analysis.
 ## Kernel TR
 Kernel TR method creates a reference kernel vector 𝑝, which is an impulse function with FFT size,
 in the kernel vector the reserved tones positions will be set to one, and all other values are set to zero. 
+
 ![image](https://github.com/Metwaly-yahia/Tone_Reservation/assets/81784667/2f89baf5-e3f5-4ba5-b167-e171a707b108)
-#…Then we do IFFT for X & P.
+…Then we do IFFT for X & P.
 
 ## Procedure of Gradient Algorithm
 
